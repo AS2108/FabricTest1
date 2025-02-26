@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Warehouse",
+    "displayName": "SnowFlake_Warehouse"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "c8629be3-f2c9-82b3-4c77-8001f61bd17d"
+  }
+}

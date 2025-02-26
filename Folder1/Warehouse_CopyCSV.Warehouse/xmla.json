@@ -1,0 +1,338 @@
+{
+  "name": "{{Dataset_Name}}",
+  "compatibilityLevel": 1604,
+  "model": {
+    "name": "{{Dataset_Name}}",
+    "culture": "en-US",
+    "collation": "Latin1_General_100_BIN2_UTF8",
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "sourceQueryCulture": "en-US",
+    "tables": [
+      {
+        "name": "Education_CSV",
+        "sourceLineageTag": "[Warehouse_CopyCSV].[Education_CSV]",
+        "columns": [
+          {
+            "name": "Student_ID",
+            "dataType": "string",
+            "sourceColumn": "Student_ID",
+            "sourceProviderType": "varchar",
+            "sourceLineageTag": "Student_ID",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "Age",
+            "dataType": "string",
+            "sourceColumn": "Age",
+            "sourceProviderType": "varchar",
+            "sourceLineageTag": "Age",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "Gender",
+            "dataType": "string",
+            "sourceColumn": "Gender",
+            "sourceProviderType": "varchar",
+            "sourceLineageTag": "Gender",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "High_School_GPA",
+            "dataType": "string",
+            "sourceColumn": "High_School_GPA",
+            "sourceProviderType": "varchar",
+            "sourceLineageTag": "High_School_GPA",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "SAT_Score",
+            "dataType": "string",
+            "sourceColumn": "SAT_Score",
+            "sourceProviderType": "varchar",
+            "sourceLineageTag": "SAT_Score",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "University_Ranking",
+            "dataType": "string",
+            "sourceColumn": "University_Ranking",
+            "sourceProviderType": "varchar",
+            "sourceLineageTag": "University_Ranking",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "University_GPA",
+            "dataType": "string",
+            "sourceColumn": "University_GPA",
+            "sourceProviderType": "varchar",
+            "sourceLineageTag": "University_GPA",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "Field_of_Study",
+            "dataType": "string",
+            "sourceColumn": "Field_of_Study",
+            "sourceProviderType": "varchar",
+            "sourceLineageTag": "Field_of_Study",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "Internships_Completed",
+            "dataType": "string",
+            "sourceColumn": "Internships_Completed",
+            "sourceProviderType": "varchar",
+            "sourceLineageTag": "Internships_Completed",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "Projects_Completed",
+            "dataType": "string",
+            "sourceColumn": "Projects_Completed",
+            "sourceProviderType": "varchar",
+            "sourceLineageTag": "Projects_Completed",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "Certifications",
+            "dataType": "string",
+            "sourceColumn": "Certifications",
+            "sourceProviderType": "varchar",
+            "sourceLineageTag": "Certifications",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "Soft_Skills_Score",
+            "dataType": "string",
+            "sourceColumn": "Soft_Skills_Score",
+            "sourceProviderType": "varchar",
+            "sourceLineageTag": "Soft_Skills_Score",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "Networking_Score",
+            "dataType": "string",
+            "sourceColumn": "Networking_Score",
+            "sourceProviderType": "varchar",
+            "sourceLineageTag": "Networking_Score",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "Job_Offers",
+            "dataType": "string",
+            "sourceColumn": "Job_Offers",
+            "sourceProviderType": "varchar",
+            "sourceLineageTag": "Job_Offers",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "Starting_Salary",
+            "dataType": "string",
+            "sourceColumn": "Starting_Salary",
+            "sourceProviderType": "varchar",
+            "sourceLineageTag": "Starting_Salary",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "Career_Satisfaction",
+            "dataType": "string",
+            "sourceColumn": "Career_Satisfaction",
+            "sourceProviderType": "varchar",
+            "sourceLineageTag": "Career_Satisfaction",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "Years_to_Promotion",
+            "dataType": "string",
+            "sourceColumn": "Years_to_Promotion",
+            "sourceProviderType": "varchar",
+            "sourceLineageTag": "Years_to_Promotion",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "Current_Job_Level",
+            "dataType": "string",
+            "sourceColumn": "Current_Job_Level",
+            "sourceProviderType": "varchar",
+            "sourceLineageTag": "Current_Job_Level",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "Work_Life_Balance",
+            "dataType": "string",
+            "sourceColumn": "Work_Life_Balance",
+            "sourceProviderType": "varchar",
+            "sourceLineageTag": "Work_Life_Balance",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "Entrepreneurship",
+            "dataType": "string",
+            "sourceColumn": "Entrepreneurship",
+            "sourceProviderType": "varchar",
+            "sourceLineageTag": "Entrepreneurship",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          }
+        ],
+        "partitions": [
+          {
+            "name": "{{Partition_Name}}",
+            "mode": "directLake",
+            "source": {
+              "type": "entity",
+              "entityName": "Education_CSV",
+              "expressionSource": "DatabaseQuery",
+              "schemaName": "Warehouse_CopyCSV"
+            }
+          }
+        ],
+        "annotations": [
+          {
+            "name": "IsTableInBiModel",
+            "value": "False"
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "name": "DatabaseQuery",
+        "kind": "m",
+        "expression": "let\n    database = {{TDS_Endpoint}}\nin\n    database\n"
+      }
+    ],
+    "annotations": [
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "0"
+      },
+      {
+        "name": "SourceLineageTagType",
+        "value": "DatabaseFullyQualifiedName"
+      }
+    ]
+  }
+}
